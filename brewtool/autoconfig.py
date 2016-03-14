@@ -180,7 +180,7 @@ class Env(object):
             '-pthread',
             '-Wall',
             '-Wextra',
-            '-Werror',
+            #'-Werror',
             '-Wno-unused-private-field',
             '-Wno-unused-local-typedef',  # needed by some third_party code
             '-Wno-unused-variable',
